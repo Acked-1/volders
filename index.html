@@ -12,7 +12,7 @@
     .nav-logo { font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 0.15em; color: #e8e8e4; text-transform: uppercase; }
     .nav-logo span { color: #c8f542; }
     .nav-links { display: flex; gap: 32px; list-style: none; }
-    .nav-links a { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #888; text-decoration: none; transition: color 0.2s; }
+    .nav-links a { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #aaa; text-decoration: none; transition: color 0.2s; }
     .nav-links a:hover { color: #e8e8e4; }
 
     .hero { display: block; padding: 100px 40px 80px; border-bottom: 1px solid #1f1f1f; }
@@ -20,7 +20,7 @@
     .hero-tag { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: #c8f542; margin-bottom: 20px; }
     .hero-title { font-size: 52px; font-weight: 300; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 24px; color: #e8e8e4; }
     .hero-title strong { font-weight: 600; color: #fff; }
-    .hero-sub { font-size: 15px; color: #888; line-height: 1.75; max-width: 380px; margin-bottom: 36px; }
+    .hero-sub { font-size: 15px; color: #aaa; line-height: 1.75; max-width: 380px; margin-bottom: 36px; }
     .btn-primary { display: inline-block; font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #0a0a0a; background: #c8f542; padding: 12px 24px; text-decoration: none; cursor: pointer; border: none; }
     .btn-ghost { display: inline-block; font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: #e8e8e4; background: transparent; padding: 12px 24px; text-decoration: none; border: 1px solid #2a2a2a; margin-left: 12px; cursor: pointer; transition: border-color 0.2s; }
     .btn-ghost:hover { border-color: #555; }
@@ -30,7 +30,7 @@
     .module-panel svg { width: 100%; height: 100%; display: block; }
     .module-meta { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
     .release-badge { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: #0a0a0a; background: #c8f542; padding: 4px 10px; }
-    .meta-line { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #777; }
+    .meta-line { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #999; }
     .meta-line span { color: #e8e8e4; }
     .meta-divider { width: 32px; height: 1px; background: #2a2a2a; }
 
@@ -43,38 +43,62 @@
     .plugin-card { background: #0e0e0e; padding: 28px 24px; transition: background 0.2s; }
     .plugin-card:hover { background: #121212; }
     .plugin-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
-    .plugin-card-tag { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #444; }
+    .plugin-card-tag { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #777; }
     .wip-badge { font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: 0.15em; text-transform: uppercase; color: #6a5a1a; background: #1e1a08; border: 1px solid #3a3010; padding: 3px 7px; }
     .free-badge { font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: 0.15em; text-transform: uppercase; color: #0a0a0a; background: #c8f542; padding: 3px 7px; font-weight: 700; }
     .plugin-card-name { font-size: 20px; font-weight: 500; color: #e8e8e4; margin-bottom: 8px; letter-spacing: -0.01em; }
-    .plugin-card-desc { font-size: 13px; color: #888; line-height: 1.7; margin-bottom: 20px; }
+    .plugin-card-desc { font-size: 13px; color: #aaa; line-height: 1.7; margin-bottom: 20px; }
     .plugin-vis { height: 48px; width: 100%; margin-bottom: 20px; border: 1px solid #1a1a1a; display: flex; align-items: center; padding: 0 8px; background: #080808; }
     .plugin-vis svg { width: 100%; height: 100%; }
     .plugin-link-released { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #c8f542; display: flex; align-items: center; gap: 6px; }
     .plugin-link-released a { color: inherit; text-decoration: none; border-bottom: 1px solid #c8f542; padding-bottom: 1px; }
-    .plugin-link-wip { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #444; display: flex; align-items: center; gap: 6px; }
+    .plugin-link-wip { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #777; display: flex; align-items: center; gap: 6px; }
 
     .about { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #1f1f1f; }
     .about-left { padding: 80px 40px; border-right: 1px solid #1f1f1f; }
     .about-right { padding: 80px 40px; display: flex; flex-direction: column; justify-content: center; }
-    .about-text { font-size: 15px; color: #888; line-height: 1.85; margin-bottom: 20px; }
+    .about-text { font-size: 15px; color: #aaa; line-height: 1.85; margin-bottom: 20px; }
     .stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #1a1a1a; border: 1px solid #1a1a1a; margin-top: 40px; }
     .stat-cell { background: #0e0e0e; padding: 20px; }
     .stat-num { font-family: 'Space Mono', monospace; font-size: 28px; font-weight: 700; color: #c8f542; letter-spacing: -0.02em; }
-    .stat-label { font-size: 11px; color: #555; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px; }
+    .stat-label { font-size: 11px; color: #888; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px; }
 
     .timeline { padding: 0; list-style: none; margin-top: 8px; }
     .timeline li { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #141414; align-items: flex-start; }
     .timeline li:last-child { border-bottom: none; }
     .tl-year { font-family: 'Space Mono', monospace; font-size: 10px; color: #c8f542; letter-spacing: 0.1em; min-width: 56px; padding-top: 2px; }
-    .tl-text { font-size: 13px; color: #777; line-height: 1.7; }
+    .tl-text { font-size: 13px; color: #999; line-height: 1.7; }
 
     footer { padding: 32px 40px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1a1a1a; }
-    .footer-logo { font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #333; }
+    .footer-logo { font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: #666; }
     .footer-logo span { color: #c8f542; }
     .footer-links { display: flex; gap: 24px; list-style: none; }
-    .footer-links a { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #333; text-decoration: none; }
-    .footer-links a:hover { color: #666; }
+    .footer-links a { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #666; text-decoration: none; }
+    .footer-links a:hover { color: #aaa; }
+
+    @media (max-width: 640px) {
+      nav { padding: 16px 20px; }
+      .nav-links { gap: 20px; }
+      .nav-links a { font-size: 10px; letter-spacing: 0.08em; }
+
+      .hero { padding: 48px 20px 40px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+      .hero-title { font-size: 36px; }
+      .hero-sub { font-size: 14px; max-width: 100%; }
+      .hero-visual { justify-content: flex-start; }
+      .module-panel { width: 80px; height: 300px; }
+
+      .plugins { padding: 48px 20px; }
+      .plugin-grid { grid-template-columns: 1fr; }
+
+      .about { grid-template-columns: 1fr; }
+      .about-left { padding: 48px 20px; border-right: none; border-bottom: 1px solid #1f1f1f; }
+      .about-right { padding: 40px 20px; }
+      .about-text { font-size: 14px; }
+      .stat-row { grid-template-columns: 1fr 1fr; }
+
+      footer { padding: 24px 20px; flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
   </style>
 </head>
 <body>
